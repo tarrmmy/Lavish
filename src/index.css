@@ -1,13 +1,283 @@
-body {
+.body {
+  text-align: center;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.back {
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+
+}
+
+.simp {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.let {
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.button {
+  height: 100px;
+  width: 230px;
+  color: #D43F52;
+  background-color: transparent;
+  border: #D43F52;
+  border-style: solid;
+  /* margin-top: 300px; */
+}
+
+.dunt {
+  color: rgba(240, 248, 255, 0.774);
+  padding-top: 150px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+
+.btn {
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  width: 180px;
+  height: 60px;
+  margin-top: 40px;
+
+  transition: all 0.4s ease-in-out;
+  ;
+}
+
+.btn:hover {
+  background: #D43F52;
+  border-color: transparent;
+}
+
+/* section B */
+
+.body1 {
+  background-color: rgb(41, 39, 39);
+}
+
+.what {
+  padding-top: 100px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.big-cover {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 140px;
+  padding-bottom: 150px;
+}
+
+.cover {
+  display: flex;
+  text-align: justify;
+
+}
+
+.rep {
+  display: block;
+}
+
+.res {
+  color: white;
+  font-size: 20px;
+}
+
+.res-a {
+  color: rgb(163, 159, 159);
+  font-size: 18px;
+}
+
+.cover .fa {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  color: #D43F52;
+  font-size: 24px;
+  margin-right: 20px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  line-height: 55px;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.4s ease-in;
+}
+
+.cover .fa:hover {
+  background: #ffffff;
+  cursor: pointer;
+  border: 2px solid #D43F52;
+}
+
+/* secftion C */
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+#about {
+  text-align: justify;
+
+}
+
+#about h4 {
+  padding: 15px 0;
+  color: #D43F52;
+}
+
+#about .progress {
+  border-radius: 4px;
+  background: #ffffff;
+  height: 4px;
+}
+
+#about .progress .progress-bar-danger {
+  background: #D43F52;
+}
+
+#about .text-top {
+  padding-top: 50px;
+}
+
+#about span {
+  color: #ffffff;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 6px;
+}
+
+#about small {
+  font-weight: bold;
+  float: right
+}
+
+/* section D */
+
+#portfolio {
+  background: #1a1a1a;
+  text-align: center;
+}
+
+.wow {
+  color: white;
+}
+
+#portfolio h2 {
+  padding-bottom: 30px;
+}
+
+#portfolio .portfolio-thumb {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay {
+  background: #D43F52;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding-top: 60px;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+/* section E */
+#contact address {
+  padding-bottom: 18px;
+  text-align: justify;
+  padding-left: 120px;
+}
+
+#contact .contact-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+#contact .fa {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  color: #D43F52;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 0;
+  box-shadow: none;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#contact input {
+  height: 50px;
+}
+
+#contact input[type="submit"] {
+  background: #D43F52;
+  border: 2px solid transparent;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #ffffff;
+  color: #D43F52;
+}
+
+/* section F */
+footer {
+  border-top: 1px solid #090909;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer hr {
+  width: 100px;
+}
+
+.bottom p .fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #D43F52;
+}
+
+.bottom {
+  display: inline-flex;
 }
